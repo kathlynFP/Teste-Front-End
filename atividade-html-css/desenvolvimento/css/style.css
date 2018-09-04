@@ -31,3 +31,74 @@ button[disabled],html input[disabled] {cursor: default;}
 input[type="checkbox"], input[type="radio"] {box-sizing: border-box;}
 body, html {height: 100%; width: 100%;}
 body {overflow: -moz-scrollbars-vertical;}
+
+/* ----------------------- */
+/* Tela 3 */
+
+.main{
+  background: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  display: block;
+  width: 100%;
+  height: 100vh;
+  overflow-y: auto;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.5px;
+}
+.main h1{
+  font-size: 1.8em;
+  color: #0c4570;
+  text-align: center;
+  margin: 35px 0;
+}
+.main > p{
+  color: #0c4570;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 25px 0;
+}
+.content-card{
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.315);
+  border-radius: 10px;
+  margin: 10px 15px 25px;
+}
+.header-card{
+  background-color: #0c4570;
+  padding: 3% 0;
+  border-radius: 10px 10px 0 0;
+}
+.header-card p{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: bold;
+  
+}
+.body-card{
+  background: rgba(36, 158, 204, 0.8);
+  height: 270px;
+  padding: 20px;
+  overflow: hidden;
+  border-radius: 0 0 10px 10px;
+
+}
+.body-card .first-tubos{
+  margin: 15px auto 30px;
+}
+
+.body-card img{
+  margin: 10px auto;
+  display: table;
+}
+.body-card p{
+  color: #fff;
+  margin: 20px 0 0;
+  letter-spacing: 0.5px;
+  text-align: center;
+  
+}
